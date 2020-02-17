@@ -1,8 +1,7 @@
-//your code here
 import React, { Component } from 'react';
 
-class default class Comment extends Component {
-    render () {
-        return <div className="comment">{this.props.commentText} </div>
-    }
-} 
+export default class Comment extends Component {
+	render() {
+		return <div className="comment">{this.props.commentText}</div>;
+	}
+}
